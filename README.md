@@ -1,5 +1,6 @@
 # AutoKeras-Dogs-vs-Cats
 The detailed comments are in chinese:
+https://blog.csdn.net/lvsolo/article/details/103445431
 
     environment:
     autokeras 0.4.0;
