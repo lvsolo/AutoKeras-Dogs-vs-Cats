@@ -1,17 +1,18 @@
 # AutoKeras-Dogs-vs-Cats
 The detailed comments are in chinese:
 
-	environment：
-  autokeras 0.4.0;
-	torch 1.3.1;
-	cuda10.0;
-	cudnn 7.5.1;
-	gpu rtx2070
+    environment:
+    autokeras 0.4.0;
+    torch 1.3.1;
+    cuda10.0;
+    cudnn 7.5.1;
+    gpu rtx2070
 The main process flow is as follows:
-1)Preprocess the datasets,restore into numpy file, preventing the repeated loading work;
-2)Use AutoKeras to choose the model for the probloms
-3)Use the pytorch to continuely train the model
-4)Generate the result csv for kaggle.
+
+    1)Preprocess the datasets,restore into numpy file, preventing the repeated loading work;
+    2)Use AutoKeras to choose the model for the probloms
+    3)Use the pytorch to continuely train the model
+    4)Generate the result csv for kaggle.
 
 之前做过一些简单的深度学习项目，在我看来主要是一些调包工程师的工作，应用现有的模型对一些项目进行训练。初入kaggle，打算以最简单的项目为切入点，提升自己的姿势水平。
 	
